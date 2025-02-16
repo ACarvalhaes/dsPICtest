@@ -206,7 +206,7 @@ CMAKE_STRIP:FILEPATH=C:/Program Files/Microchip/xc-dsc/v3.20/bin/xc-dsc-strip.ex
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//The CMake toolchain file
+//No help, variable specified on the command line.
 CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/cmake/dsPIC33a_test/default/.generated/toolchain.cmake
 
 //No help, variable specified on the command line.

@@ -1,9 +1,18 @@
+/** 
+ * @file config.h
+ * @author Carvalhaes
+ * @date 2025-02-16
+ * @brief Definição dos bits de configuração.
+ * 
+ * As opções foram selecionadas no MPLab X IDE e o output copiado para o VSCode, não tenho a certeza se alguns dos bits estarão bem configurados.  
+ */
+
 // DSPIC33AK128MC106 Configuration Bit Settings
 
 // 'C' source line config statements
 
 // FCP
-#pragma config FCP_CP = OFF             // Memory protection enable bit (Memory protection is disabled)
+#pragma config FCP_CP = OFF             // Memory protection enable bit (Memory protection is disabled) /** Teste */
 #pragma config FCP_CRC = OFF            // CRC enable bit (CRC is disabled)
 #pragma config FCP_WPUCA = OFF          // User configuration areas write protection enable bits (Protection is disabled)
 
