@@ -29,7 +29,8 @@
         {
             "name": "default",
             "files": [
-                "main.c"
+                "main.c",
+                "config.h"
             ]
         }
     ]
