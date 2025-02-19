@@ -9,15 +9,16 @@
 
  #include "config.h"
  #include <xc.h>
+ #include "clock.h"
 
  /**
  * @brief Função main do programa.
  *
- * Atualmente ainda não faz nada.
+ * Por agora, apenas inicializa chama a função de inicialização do clock.
  */
 int main(){
 
-    // Add your code here and press Ctrl + Shift + B to build
+    clockInit();
 
     return 0;
 };

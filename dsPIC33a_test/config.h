@@ -9,7 +9,8 @@
 
 // DSPIC33AK128MC106 Configuration Bit Settings
 
-// 'C' source line config statements
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
 
 // FCP
 #pragma config FCP_CP = OFF             // Memory protection enable bit (Memory protection is disabled) /** Teste */
@@ -313,3 +314,5 @@
 
 // #pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
+
+#endif //__CONFIG_H__
