@@ -26,14 +26,18 @@ var NAVTREE =
 [
   [ "Teste dsPIC33A", "index.html", [
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "Globals", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"config_8h_source.html"
+"clock_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
