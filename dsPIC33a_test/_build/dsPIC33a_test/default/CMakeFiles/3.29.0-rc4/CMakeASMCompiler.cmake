@@ -1,4 +1,4 @@
-set(CMAKE_ASM_COMPILER "C:/Program Files/Microchip/xc-dsc/v3.20/bin/xc-dsc-gcc.exe")
+set(CMAKE_ASM_COMPILER "c:/Program Files/Microchip/xc-dsc/v3.20/bin/xc-dsc-gcc.exe")
 set(CMAKE_ASM_COMPILER_ARG1 "")
 set(CMAKE_AR "C:/Program Files/Microchip/xc-dsc/v3.20/bin/xc-dsc-ar.exe")
 set(CMAKE_ASM_COMPILER_AR "CMAKE_ASM_COMPILER_AR-NOTFOUND")

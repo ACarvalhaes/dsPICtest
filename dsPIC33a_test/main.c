@@ -10,6 +10,7 @@
  #include "config.h"
  #include <xc.h>
  #include "clock.h"
+ #include "timer.h"
 
  /**
  * @brief Função main do programa.

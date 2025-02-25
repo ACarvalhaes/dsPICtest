@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dsPIC33a_test_default_compile
+# Target rules for targets named dsPIC33a_test_default_default_XC_DSC_compile
 
 # Build rule for target.
-dsPIC33a_test_default_compile: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dsPIC33a_test_default_compile
-.PHONY : dsPIC33a_test_default_compile
+dsPIC33a_test_default_default_XC_DSC_compile: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dsPIC33a_test_default_default_XC_DSC_compile
+.PHONY : dsPIC33a_test_default_default_XC_DSC_compile
 
 # fast build rule for target.
-dsPIC33a_test_default_compile/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_compile.dir/build
-.PHONY : dsPIC33a_test_default_compile/fast
+dsPIC33a_test_default_default_XC_DSC_compile/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/build
+.PHONY : dsPIC33a_test_default_default_XC_DSC_compile/fast
 
 #=============================================================================
 # Target rules for targets named dsPIC33a_test_default_default.elf
@@ -160,7 +160,7 @@ C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.o: C_/Users/Carvalhaes/
 
 # target to build an object file
 C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o
 .PHONY : C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o
 
 C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.i: C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.i
@@ -168,7 +168,7 @@ C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.i: C_/Users/Carvalhaes/
 
 # target to preprocess a source file
 C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.i
 .PHONY : C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.i
 
 C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.s: C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.s
@@ -176,7 +176,7 @@ C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.s: C_/Users/Carvalhaes/
 
 # target to generate assembly for a file
 C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/build.make CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.s
 .PHONY : C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.s
 
 # Help Target
@@ -188,8 +188,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dsPIC33a_test_default_Bin2Hex"
-	@echo "... dsPIC33a_test_default_compile"
 	@echo "... dsPIC33a_test_default_default.elf"
+	@echo "... dsPIC33a_test_default_default_XC_DSC_compile"
 	@echo "... C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.o"
 	@echo "... C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.i"
 	@echo "... C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.s"

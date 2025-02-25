@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c" "CMakeFiles/dsPIC33a_test_default_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o" "gcc" "CMakeFiles/dsPIC33a_test_default_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o.d"
+  "C:/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c" "CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o" "gcc" "CMakeFiles/dsPIC33a_test_default_default_XC_DSC_compile.dir/C_/Users/Carvalhaes/Desktop/dsPICtest/dsPIC33a_test/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
