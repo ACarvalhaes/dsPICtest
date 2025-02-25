@@ -14,7 +14,7 @@
  /** ##Função para inicialização do clock */
  void clockInit() {
     /** ###PLL1
-    *   FPLLo = FPLLi*(PLLFBDIV/(PLLPRE*POSTDIV1*POSTDIV2))   &&  POSTDIV1 > POSTDIV2\n
+    *   FPLLo = FPLLi*(PLLFBDIV/(PLLPRE*POSTDIV1*POSTDIV2))   &&  POSTDIV1 > POSTDIV2        \n
     *   200MHz = 8 * (50 / (1 * 2 * 1))
     */
     PLL1DIVbits.PLLFBDIV = 50;
