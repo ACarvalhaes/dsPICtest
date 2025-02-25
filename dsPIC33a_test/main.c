@@ -15,11 +15,12 @@
  /**
  * @brief Função main do programa.
  *
- * Por agora, apenas inicializa chama a função de inicialização do clock.
+ * Por agora, apenas chama a função de inicialização do clock e do Timer 1.
  */
 int main(){
 
     clockInit();
-
+    timer1_Init();
+    
     return 0;
 };
