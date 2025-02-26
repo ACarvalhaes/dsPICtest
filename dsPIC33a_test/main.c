@@ -25,5 +25,12 @@ int main(){
     timer1_Init();
     gpio_init();
     
+    while(1) {
+        LATBbits.LATB1 = 1;                 //RB1 output high
+        timer1_Delay_ms(2000);          //delay 2s
+        LATBbits.LATB1 = 0;                 //RB1 output low
+        timer1_Delay_ms(2000);          //delay 2s
+    }
+
     return 0;
 };
