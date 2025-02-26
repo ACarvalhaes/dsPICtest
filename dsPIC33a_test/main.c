@@ -4,23 +4,26 @@
  * @date 2025-02-16
  * @brief Função main
  *
- * Este ficheiro define a função main, e inclui o config.h que é utilizado para definir os bits de configuração do dsPIC33A. Inclui tambem a biblioteca xc.h que define todos os registos dos periféricos do dsPIC33A.
+ * Este ficheiro define a função main.
  */
 
  #include "config.h"
  #include <xc.h>
  #include "clock.h"
  #include "timer.h"
+ #include "gpio.h"
 
  /**
  * @brief Função main do programa.
  *
- * Por agora, apenas chama a função de inicialização do clock e do Timer 1.
+ * Chama as funções de inicialização.   \n
+ * Implementa ciclo infinito de on/off do RB1 (a simular um led).
  */
 int main(){
 
     clockInit();
     timer1_Init();
+    gpio_init();
     
     return 0;
 };
